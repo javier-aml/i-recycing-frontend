@@ -2,13 +2,9 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    '@formkit/nuxt',
     '@pinia/nuxt',
     '@nuxt/ui',
     '@nuxt/image',
     '@nuxtjs/tailwindcss'
-  ],
-  formkit: {
-    autoImport: true
-  }
+  ]
 })
