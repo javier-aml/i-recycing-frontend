@@ -1,3 +1,3 @@
 <template>
-    <LoginMain />
+    <login-comp />
 </template>

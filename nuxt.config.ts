@@ -5,6 +5,10 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxt/ui',
     '@nuxt/image',
-    '@nuxtjs/tailwindcss'
-  ]
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode'
+  ],
+  image: {
+    dir: 'assets/images'
+  }
 })
