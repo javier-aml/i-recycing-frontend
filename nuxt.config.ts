@@ -10,5 +10,14 @@ export default defineNuxtConfig({
   ],
   image: {
     dir: 'assets/images'
+  },
+  nitro: {
+    azure: {
+      config: {
+        platform: {
+          apiRuntime: "node:18"
+        }
+      }
+    }
   }
 })

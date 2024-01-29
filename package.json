@@ -23,5 +23,8 @@
   "dependencies": {
     "@nuxt/image": "^1.0.0-rc.3",
     "pinia": "^2.1.7"
+  },
+  "engines": {
+    "node": ">=18.17.0"
   }
 }
