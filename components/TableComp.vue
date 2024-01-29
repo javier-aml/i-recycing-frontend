@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4 border-2 rounded-lg">
+  <div class="p-4 border-2 border-gray-300 rounded-lg bg-white">
     <section>
       <u-input
         icon="i-heroicons-magnifying-glass-20-solid"
@@ -120,4 +120,17 @@ const people = [
     role: "Member"
   }
 ]
+
+import { useGlobal } from "@/store/global"
+import { storeToRefs } from "pinia"
+import { onMounted } from "vue";
+
+const globalStore = useGlobal()
+const { isLoading } = storeToRefs(globalStore)
+
+onMounted(() => {
+  setTimeout(() => {
+    isLoading.value = false
+  }, 200)
+})
 </script>
