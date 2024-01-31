@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4 border-2 border-gray-300 rounded-lg bg-white">
+  <div class="p-4 border-2 border-gray-300 dark:border-gray-600 rounded-lg bg-gray-100 dark:bg-gray-700">
     <section>
       <u-input
         icon="i-heroicons-magnifying-glass-20-solid"
@@ -15,7 +15,7 @@
           <u-dropdown :items="items(row)">
             <u-button
               color="green"
-              variant="soft"
+              variant="link"
               icon="i-heroicons-ellipsis-horizontal-20-solid"
             />
           </u-dropdown>

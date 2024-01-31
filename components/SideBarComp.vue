@@ -1,5 +1,5 @@
 <template>
-  <nuxt-img src="/logo.png" alt="logo" />
+  <img src="~/assets/images/logo.svg" alt="logo" />
   <u-divider class="mt-4 mb-2" icon="i-heroicons-bars-3-bottom-left" :ui="{ border: { size: { horizontal: 'border-t-2' } } }" />
   <nav>
     <u-vertical-navigation :links="links" />

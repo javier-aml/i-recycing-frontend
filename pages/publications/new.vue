@@ -18,11 +18,11 @@
       class="w-full p-4"
     >
       <div class="space-y-4 mt-3">
-        <hr class="border-1 border-gray-300" />
+        <hr class="border-1 border-gray-300 dark:border-gray-600" />
         <div class="flex justify-center">
           <div class="w-1/4">Logo</div>
           <div
-            class="border-2 border-gray-300 rounded-lg p-4 w-3/4 shadow-lg bg-white"
+            class="border-2 border-gray-300 dark:border-gray-600 rounded-lg p-4 w-3/4 shadow-lg bg-gray-100 dark:bg-gray-700"
           >
             <u-form-group label="Email" name="email" required>
               <u-input />
@@ -37,11 +37,11 @@
             </u-form-group>
           </div>
         </div>
-        <hr class="border-1 border-gray-300" />
+        <hr class="border-1 border-gray-300 dark:border-gray-600" />
         <div class="flex justify-center">
           <div class="w-1/4">Logo</div>
           <div
-            class="border-2 border-gray-300 rounded-lg p-4 w-3/4 shadow-lg bg-white"
+            class="border-2 border-gray-300 dark:border-gray-600 rounded-lg p-4 w-3/4 shadow-lg bg-gray-100 dark:bg-gray-700"
           >
             <u-form-group label="Email" name="email" required>
               <u-input />
@@ -52,7 +52,7 @@
             </u-form-group>
           </div>
         </div>
-        <hr class="border-1 border-gray-300" />
+        <hr class="border-1 border-gray-300 dark:border-gray-600" />
       </div>
 
       <u-button type="submit" class="mt-4"> Submit </u-button>
